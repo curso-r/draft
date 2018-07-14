@@ -2,7 +2,7 @@
 % Please edit documentation in R/drafr.R
 \name{upload}
 \alias{upload}
-\title{Upload file to Gist (GitHub)}
+\title{Upload file to Gist. RUN ON CONSOLE}
 \usage{
 upload(file)
 }

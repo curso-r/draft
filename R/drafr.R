@@ -43,7 +43,7 @@ rename_file <- function(f) {
 }
 
 
-#' Upload file to Gist (GitHub)
+#' Upload file to Gist. RUN ON CONSOLE
 #'
 #' Upload file or current open file to Gist
 #'
