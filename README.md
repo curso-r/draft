@@ -19,7 +19,7 @@ This is a basic example which shows you how to solve a common problem:
 draft::draft()
 ```
 
-After edit your file,
+After edit your file, run this in console:
 
 ``` r
 draft::upload()
