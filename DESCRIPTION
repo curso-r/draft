@@ -1,7 +1,7 @@
 Package: draft
 Title: Create Drafts In a Structured Way
-Version: 0.0.0.9000
-Authors@R: person("Julio", "Trecenti", email = "jtrecenti@curso-r.com", role = c("aut", "cre"))
+Version: 0.1.0
+Authors@R: person("Julio", "Trecenti", email = "julio.trecenti@gmail.com", role = c("aut", "cre"))
 Description: Creates R drafts with a template and loads magrittr or tidyverse.
 Depends: R (>= 3.4.0)
 License: MIT + file LICENSE
