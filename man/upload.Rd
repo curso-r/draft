@@ -10,5 +10,10 @@ upload(file)
 \item{file}{Path to file. If missing, gets current open file.}
 }
 \description{
-Upload file or current open file to Gist
+Upload file or current open file to Gist. To make it work,
+create a PAT using \code{\link[usethis:github-token]{usethis::create_github_token()}} and
+\code{\link[usethis:edit]{usethis::edit_r_environ()}}.
+}
+\seealso{
+\href{https://happygitwithr.com/credential-caching.html#credential-caching}{PAT tutorial}
 }

@@ -12,3 +12,4 @@ Imports: rstudioapi,
     gistr,
     stringi,
     utils
+Roxygen: list(markdown = TRUE)

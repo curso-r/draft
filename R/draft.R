@@ -44,9 +44,13 @@ rename_file <- function(f) {
 
 #' Upload file to Gist. RUN ON CONSOLE
 #'
-#' Upload file or current open file to Gist
+#' Upload file or current open file to Gist. To make it work,
+#'   create a PAT using [usethis::create_github_token()] and
+#'   [usethis::edit_r_environ()].
 #'
 #' @param file Path to file. If missing, gets current open file.
+#'
+#' @seealso [PAT tutorial](https://happygitwithr.com/credential-caching.html#credential-caching)
 #'
 #' @export
 upload <- function(file) {
